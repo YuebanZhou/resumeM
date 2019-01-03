@@ -1,0 +1,25 @@
+body {
+    background: url("../img/pagebgcont.jpg") repeat-y center;
+    background-size: cover;
+}
+
+.content .block {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: rgba(0, 0, 0, 0.3)
+}
+
+.content .block img {
+    width: 5rem;
+    float: left;
+    margin-right: 10px;
+}
+
+.content .block p {
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    color: #fff;
+}

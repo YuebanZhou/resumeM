@@ -1,0 +1,180 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei";
+}
+
+.clearfloat:after {
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0;
+}
+
+ul {
+    padding-left: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.eot');
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../font/iconfont.woff') format('woff'),
+        url('../font/iconfont.ttf') format('truetype'),
+        url('../font/iconfont.svg') format('svg');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #666;
+}
+
+.iconfont1 {
+    font-size: 80px;
+}
+
+.iconfont2 {
+    font-size: 20px;
+}
+
+.iconfont3 {
+    font-size: 100px;
+    line-height: 230px;
+}
+
+.iconfont4 {
+    font-size: 100px;
+
+}
+
+/*本项目使用的18个图标  */
+.icon-prev:before {
+    content: '\e600';
+}
+
+.icon-next:before {
+    content: '\e601';
+}
+
+.icon-banner:before {
+    content: '\e60d';
+}
+
+.icon-basic:before {
+    content: '\e635';
+}
+
+.icon-experience:before {
+    content: '\e6d2';
+}
+
+.icon-interest:before {
+    content: '\e60c';
+}
+
+.icon-contact:before {
+    content: '\e763';
+}
+
+.icon-end:before {
+    content: '\e604';
+}
+
+.icon-personalMsg:before {
+    content: '\e684';
+}
+
+.icon-workExp:before {
+    content: '\e633';
+}
+
+.icon-myTarget:before {
+    content: '\e82d';
+}
+
+.icon-aboutMe:before {
+    content: '\e61f';
+}
+
+.icon-koukou:before {
+    content: '\e605';
+}
+
+.icon-weixin:before {
+    content: '\e617';
+}
+
+.icon-phone:before {
+    content: '\e628';
+}
+
+.icon-mail:before {
+    content: '\e66e';
+}
+
+.icon-segmentfault:before {
+    content: '\e602';
+}
+
+.icon-hexo:before {
+    content: '\e656';
+}
+
+.icon-Github:before {
+    content: '\f1b4';
+}
+
+.icon-cnblogs:before {
+    content: '\e632';
+}
+
+.container {
+    padding: 3rem 0;
+}
+
+.container .head {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 3rem;
+    background-color: #3385FF;
+    line-height: 3rem;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+}
+
+.container .head a i {
+    color: #fff;
+    font-weight: bold;
+}
+
+.container .foot {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    background-color: #3385FF;
+    color: #fff;
+    line-height: 3rem;
+    text-align: center;
+    font-weight: bold;
+}

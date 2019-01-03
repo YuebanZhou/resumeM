@@ -1,0 +1,35 @@
+body {
+    background: url("../img/pagebgexp.jpg") repeat-y center;
+    background-size: cover;
+}
+
+.content .block {
+    padding: 10px;
+    width: 90%;
+    margin: 10px auto;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.content .block .top {
+    padding: 5px;
+    color: #eee;
+}
+
+.content .block .sinblock {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 5px;
+    border-bottom: 2px dotted #E16C26;
+}
+
+.content .block .sinblock:last-child {
+    border-bottom: 0px dotted #E16C26;
+}
+
+.content .block .sinblock div {
+    color: #ddd;
+    margin-bottom: 5px;
+}
+
+.content .block .sinblock .fir {
+    color: #bbb;
+}

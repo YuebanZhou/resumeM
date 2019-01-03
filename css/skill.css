@@ -1,0 +1,25 @@
+body {
+    background: url("../img/pagebginte.jpg") repeat-y center;
+    background-size: cover;
+}
+
+.content .block {
+    padding: 10px;
+    width: 90%;
+    margin: 10px auto;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.content .block .skillblock {
+    color: #333;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.content .block .skillblock span {
+    background-color: #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-block;
+}

@@ -1,0 +1,16 @@
+body {
+    background: url("../img/pagebgend.jpg") repeat-y center;
+    background-size: cover; 
+}
+
+.content .block {
+    width: 25%;
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.content .block a i {
+    font-size: 40px;
+    color: #333;
+}
