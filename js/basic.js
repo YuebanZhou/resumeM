@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $.ajax({
         url: "./json/msg.json",
-        type: "post",
+        type: "get",
         dataType: "json",
         success: function (data) {
             console.log(data);
